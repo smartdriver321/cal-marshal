@@ -14,6 +14,7 @@ import { RenderCalendar } from '@/app/components/demo/RenderCalendar'
 import { TimeSlots } from '@/app/components/TimeSlots'
 
 const targetDate = new Date(2024, 8, 19) // Note: month is 0-indexed, so 8 is September
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const nextDay = addDays(targetDate, 1)
 
 async function getData(userName: string, meetingName: string) {

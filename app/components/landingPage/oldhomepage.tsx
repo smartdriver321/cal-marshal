@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'

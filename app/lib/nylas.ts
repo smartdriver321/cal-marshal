@@ -7,6 +7,7 @@ export const nylasConfig = {
 	callbackUri: process.env.NEXT_PUBLIC_URL + '/api/oauth/exchange',
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AuthConfig = {
 	clientId: process.env.NYLAS_CLIENT_ID as string,
 	redirectUri: 'http://localhost:3000/oauth/exchange',
